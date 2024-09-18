@@ -9,6 +9,7 @@ int main() {
     funcion1();
     funcion2(5, 2.67);
     v = funcion3(10);
+    e = funcion5(8);
 
     // Imprime el valor que retornó funcion3()
     printf("v = %d\n", v);
@@ -36,18 +37,6 @@ int funcion3(int x) {
     return y;
 }
 
-int funcion5(int x) {
-    printf("en funcion5");
-int funcion4(int x) {
-    printf("En funcion4()");
-    return x;
-}
-
-int funcion4(int x) {
-    printf("En funcion4()...\n");
-    int y = x - 2;
-    return y;
-}
 
 int funcion5(int x) {
     printf("En funcion5()...\n");
